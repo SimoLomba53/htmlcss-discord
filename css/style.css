@@ -119,21 +119,24 @@ header{
 .pink-block{
     width:700px;
     height: 350px;
+    padding:50px;
 }
 
 .blue-block{
     width:550px;
     height: 350px;
+    padding:50px;
 }
 
-#title{
+.title{
     font-size:65px;
     font-weight:bold;
     margin-left:100px;
+    margin-right:70px;
 
 }
 
-#second-paragraph{
+.paragraph{
     font-size:25px;
     margin-left:100px;
     margin-top:30px;
@@ -145,7 +148,7 @@ header{
 
 .central-section2{
     background-color: rgb(201, 201, 201);
-    min-height:450px;
+    min-height:750px;
     width: auto;
     display:flex;
     align-items:center;
@@ -153,9 +156,10 @@ header{
     flex-direction:row;
 }
 
+/*quarta sezione*/
 #big-section{
     background-color: rgb(201, 201, 201) ;
-    min-height:1000px;
+    min-height:1500px;
     width:auto;
     display:flex;
     align-items:center;
@@ -167,9 +171,45 @@ header{
     width:1250px;
     height: 900px;
     border: 1px black dashed;
+    display:flex;
+    flex-direction:column;
 }
 
-/*quarta sezione*/
+#last-title{
+    font-size:60px;
+    text-align:center;
+    font-weight:bold;
+}
+
+#last-paragraph{
+    font-size:25px;
+    text-align:center;
+    margin-top:20px;
+}
+
+#ready{
+    background-image: url(../img/stars.svg);
+    background-repeat:no-repeat;
+    text-align:center;
+    font-weight:bold;
+    font-size:40px;
+}
+
+#Download-mac{
+    background-color:rgb(0, 110, 255);
+    padding:20px;
+    border-radius:50px;
+    color: white;
+    text-align:center;
+    width:150px;
+    margin:auto;
+    margin-top:50px;
+    font-size:20px;
+    font-weight:bold;
+
+}
+
+/*quinta sezione*/
 
 #black-section{
     min-height:450px;
