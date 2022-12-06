@@ -106,6 +106,8 @@ header{
 }
 
 
+
+
 /*seconda sezione*/
 
 .central-section{
@@ -143,6 +145,10 @@ header{
     margin-left:100px;
     margin-top:30px;
 
+}
+
+.wave{
+    margin:-5px
 }
 
 
@@ -238,10 +244,15 @@ h1{
     color:rgb(0,110,255);
     font-weight:bold;
     font-size:60px;
+    margin-bottom:15px;
 }
 
 #italiano{
     color:white;
+}
+
+#itapng{
+    width:25px;
 }
 
 h3{
@@ -258,6 +269,9 @@ h3{
     color: white;
 } 
 
+i{
+    color: white;
+}
 
 /*barra & logo*/
 
